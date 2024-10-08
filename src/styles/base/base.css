@@ -1,0 +1,9 @@
+@layer base {
+  body {
+    @apply text-base text-black;
+  }
+
+  img {
+    @apply w-full;
+  }
+}
