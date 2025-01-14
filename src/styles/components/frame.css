@@ -1,0 +1,14 @@
+@layer components {
+  .frame {
+    @apply overflow-hidden;
+
+    > img,
+    > iframe {
+      @apply h-full w-full object-cover;
+    }
+  }
+
+  .frame--map {
+    @apply aspect-[12/5] sm:aspect-square;
+  }
+}

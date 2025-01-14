@@ -1,9 +1,8 @@
 @layer components {
   .container {
     @apply mx-auto w-[90%] max-w-[1200px];
-
-    &--sm {
-      @apply max-w-[960px];
-    }
+  }
+  .container--sm {
+    @apply max-w-[960px];
   }
 }

@@ -1,0 +1,8 @@
+@layer components {
+  .typography--expanded {
+    @apply leading-loose;
+  }
+  .c-typography--link {
+    @apply text-blue underline hover:no-underline;
+  }
+}

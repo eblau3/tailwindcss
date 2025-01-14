@@ -6,10 +6,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        black: '#000000',
-        white: '#ffffff',
-        primary: '#1D4ED8',
-        secondary: '#9333EA',
+        'black': '#000000',
+        'white': '#ffffff',
+        'blue': '#99c3ff',
       },
       fontSize: {
         '2xs': 'var(--text-2xs)',

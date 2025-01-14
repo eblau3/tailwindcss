@@ -1,6 +1,8 @@
 @import './base/variable.css';
 @import './base/base.css';
 @import './components/container.css';
+@import './components/frame.css';
+@import './components/typography.css';
 
 @tailwind base;
 @tailwind components;

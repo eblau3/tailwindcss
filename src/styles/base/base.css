@@ -1,9 +1,13 @@
 @layer base {
+  html {
+    @apply scroll-p-[var(--header-height)] scroll-smooth;
+  }
+
   body {
     @apply text-base text-black;
   }
 
   img {
-    @apply w-full;
+    @apply pointer-events-none w-full;
   }
 }

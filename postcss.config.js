@@ -12,6 +12,13 @@ module.exports = {
     tailwindcssNesting(),
     autoprefixer(),
     cssnano({preset: 'default'}),
-    postcssPxtorem()
+    postcssPxtorem({
+      rootValue: 16,
+      propList: ['*'],
+      unitPrecision: 4,
+      replace: true,
+      mediaQuery: false,
+      minPixelValue: 0,
+    })
   ],
 };
