@@ -8,8 +8,9 @@
   --spacing-3xl: 64px;
   --spacing-4xl: 96px;
   --spacing-5xl: 128px;
-  --spacing-7xl: 192px;
-  --spacing-8xl: 256px;
+  --spacing-6xl: 192px;
+  --spacing-7xl: 256px;
+  --spacing-header: 90px;
 
   --text-xs: 12px;
   --text-sm: 14px;
@@ -21,8 +22,6 @@
   --text-4xl: 48px;
   --text-5xl: 62px;
 
-  --header-height: 90px;
-
   @media (max-width: 640px) {
     --spacing-xs: calc(8px * 0.5);
     --spacing-sm: calc(12px * 0.5);
@@ -33,8 +32,9 @@
     --spacing-3xl: calc(64px * 0.5);
     --spacing-4xl: calc(96px * 0.5);
     --spacing-5xl: calc(128px * 0.5);
-    --spacing-7xl: calc(192px * 0.5);
-    --spacing-8xl: calc(256px * 0.5);
+    --spacing-6xl: calc(192px * 0.5);
+    --spacing-7xl: calc(256px * 0.5);
+    --spacing-header: 60px;
 
     --text-xs: 10px;
     --text-sm: 12px;
@@ -45,7 +45,5 @@
     --text-3xl: 26px;
     --text-4xl: 30px;
     --text-5xl: 37px;
-
-    --header-height: 60px;
   }
 }

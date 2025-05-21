@@ -1,10 +1,10 @@
 @layer base {
   html {
-    @apply scroll-p-[var(--header-height)] scroll-smooth;
+    @apply scroll-p-[var(--spacing-header)] scroll-smooth;
   }
 
   body {
-    @apply text-base text-black;
+    @apply text-base bg-white text-black transition duration-200 tracking-wider;
   }
 
   img {

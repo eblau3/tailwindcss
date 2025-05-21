@@ -4,12 +4,12 @@ module.exports = {
     screens: {
       'sm': {'max': '640px'},
     },
+    colors: {
+      'black': '#000000',
+      'white': '#ffffff',
+      'blue': '#99c3ff',
+    },
     extend: {
-      colors: {
-        'black': '#000000',
-        'white': '#ffffff',
-        'blue': '#99c3ff',
-      },
       fontSize: {
         '2xs': 'var(--text-2xs)',
         'xs': 'var(--text-xs)',
@@ -34,7 +34,7 @@ module.exports = {
         '5xl': 'var(--spacing-5xl)',
         '6xl': 'var(--spacing-6xl)',
         '7xl': 'var(--spacing-7xl)',
-        '8xl': 'var(--spacing-8xl)',
+        'header': 'var(--spacing-header)',
       },
     },
   },
