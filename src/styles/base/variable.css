@@ -1,4 +1,8 @@
 :root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-blue: #99c3ff;
+
   --spacing-xs: 8px;
   --spacing-sm: 12px;
   --spacing-md: 16px;
