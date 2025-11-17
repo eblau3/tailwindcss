@@ -1,53 +1,42 @@
 :root {
+  /* Color */
   --color-black: #000000;
   --color-white: #ffffff;
-  --color-blue: #99c3ff;
+  --color-primary: #99c3ff;
 
-  --spacing-xs: 8px;
-  --spacing-sm: 12px;
-  --spacing-md: 16px;
-  --spacing-lg: 24px;
-  --spacing-xl: 32px;
-  --spacing-2xl: 48px;
-  --spacing-3xl: 64px;
-  --spacing-4xl: 96px;
-  --spacing-5xl: 128px;
-  --spacing-6xl: 192px;
-  --spacing-7xl: 256px;
+  /*
+   * Clamp Generator
+   * https://min-max-calculator.9elements.com/
+   * - Viewport：375 ~ 1280
+   */
+  /* Font Size */
+  --text-2xs: clamp(0.5rem, 0.448rem + 0.22vw, 0.625rem); /* 8 ~ 10 */
+  --text-xs: clamp(0.625rem, 0.573rem + 0.22vw, 0.75rem); /* 10 ~ 12 */
+  --text-sm: clamp(0.75rem, 0.698rem + 0.22vw, 0.875rem); /* 12 ~ 14 */
+  --text-base: clamp(0.875rem, 0.823rem + 0.22vw, 1rem); /* 14 ~ 16 */
+  --text-lg: clamp(0.875rem, 0.771rem + 0.44vw, 1.125rem); /* 14 ~ 18 */
+  --text-xl: clamp(1rem, 0.896rem + 0.44vw, 1.25rem); /* 16 ~ 20 */
+  --text-2xl: clamp(1.125rem, 0.97rem + 0.66vw, 1.5rem); /* 18 ~ 24 */
+  --text-3xl: clamp(1.313rem, 1.079rem + 0.99vw, 1.875rem); /* 21 ~ 30 */
+  --text-4xl: clamp(1.5rem, 1.189rem + 1.33vw, 2.25rem); /* 24 ~ 36 */
+  --text-5xl: clamp(1.875rem, 1.409rem + 1.99vw, 3rem); /* 30 ~ 48 */
+  --text-6xl: clamp(2.25rem, 1.628rem + 2.65vw, 3.75rem); /* 36 ~ 60 */
+
+  /* Spacing */
+  --spacing-xs: clamp(0.25rem, 0.146rem + 0.44vw, 0.5rem); /* 4 〜 8 */
+  --spacing-sm: clamp(0.375rem, 0.22rem + 0.66vw, 0.75rem); /* 6 〜 12 */
+  --spacing-md: clamp(0.5rem, 0.293rem + 0.88vw, 1rem); /* 8 〜 16 */
+  --spacing-lg: clamp(0.75rem, 0.439rem + 1.33vw, 1.5rem); /* 12 〜 24 */
+  --spacing-xl: clamp(1rem, 0.586rem + 1.77vw, 2rem); /* 16 〜 32 */
+  --spacing-2xl: clamp(1.5rem, 0.878rem + 2.65vw, 3rem); /* 24 〜 48 */
+  --spacing-3xl: clamp(2rem, 1.171rem + 3.54vw, 4rem); /* 32 〜 64 */
+  --spacing-4xl: clamp(3rem, 1.757rem + 5.3vw, 6rem); /* 48 〜 96 */
+  --spacing-5xl: clamp(4rem, 2.343rem + 7.07vw, 8rem); /* 64 〜 128 */
+  --spacing-6xl: clamp(6rem, 3.514rem + 10.61vw, 12rem); /* 96 〜 192 */
+  --spacing-7xl: clamp(8rem, 4.685rem + 14.14vw, 16rem); /* 128 〜 256 */
   --spacing-header: 90px;
 
-  --text-xs: 12px;
-  --text-sm: 14px;
-  --text-base: 16px;
-  --text-lg: 20px;
-  --text-xl: 24px;
-  --text-2xl: 32px;
-  --text-3xl: 40px;
-  --text-4xl: 48px;
-  --text-5xl: 62px;
-
-  @media (max-width: 640px) {
-    --spacing-xs: calc(8px * 0.5);
-    --spacing-sm: calc(12px * 0.5);
-    --spacing-md: calc(16px * 0.5);
-    --spacing-lg: calc(24px * 0.5);
-    --spacing-xl: calc(32px * 0.5);
-    --spacing-2xl: calc(48px * 0.5);
-    --spacing-3xl: calc(64px * 0.5);
-    --spacing-4xl: calc(96px * 0.5);
-    --spacing-5xl: calc(128px * 0.5);
-    --spacing-6xl: calc(192px * 0.5);
-    --spacing-7xl: calc(256px * 0.5);
+  @media (max-width: 1024px) {
     --spacing-header: 60px;
-
-    --text-xs: 10px;
-    --text-sm: 12px;
-    --text-base: 14px;
-    --text-lg: 16px;
-    --text-xl: 18px;
-    --text-2xl: 22px;
-    --text-3xl: 26px;
-    --text-4xl: 30px;
-    --text-5xl: 37px;
   }
 }

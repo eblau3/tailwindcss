@@ -1,8 +1,33 @@
 @layer components {
-  .typography--expanded {
-    @apply leading-loose;
+  .typography--text {
+    @apply text-base;
   }
-  .c-typography--link {
-    @apply text-blue underline hover:no-underline;
+
+  .typography--link {
+    @apply text-primary underline hover:no-underline;
+  }
+
+  .typography--section-title {
+    @apply text-4xl font-medium;
+  }
+
+  .typography--sub-title {
+    @apply text-2xl font-medium;
+  }
+
+  .typography--heading {
+    @apply text-lg font-medium;
+  }
+
+  .typography--spacer {
+    &.typography--section-title {
+      @apply mb-xl;
+    }
+    &.typography--sub-title {
+      @apply mb-md;
+    }
+    &.typography--heading {
+      @apply mb-sm;
+    }
   }
 }

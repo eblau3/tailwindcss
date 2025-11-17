@@ -2,12 +2,39 @@ module.exports = {
   content: ['./src/**/*{html,php,js}'],
   theme: {
     screens: {
+      'xl': {'max': '1280px'},
+      'lg': {'max': '1024px'},
+      'md': {'max': '768px'},
       'sm': {'max': '640px'},
     },
     colors: {
-      'black': '#000000',
-      'white': '#ffffff',
-      'blue': '#99c3ff',
+      'black': 'var(--color-black)',
+      'white': 'var(--color-white)',
+      'primary': 'var(--color-primary)',
+    },
+    fontFamily: {
+      'noto-sans': ['"Noto Sans JP", sans-serif'],
+      'roboto': ['"Roboto", sans-serif'],
+      'outfit': ['"Outfit", sans-serif'],
+    },
+    letterSpacing: {
+      'xs': '-0.05em',
+      'sm': '-0.025em',
+      'normal': '0',
+      'lg': '0.025em',
+      'xl': '0.05em',
+      '2xl': '0.075em',
+      '3xl': '0.1em',
+      '4xl': '0.15em',
+      '5xl': '0.2em',
+    },
+    lineHeight: {
+      'none': '1em',
+      'sm': '1.25',
+      'normal': '1.5',
+      'lg': '1.75',
+      'xl': '2em',
+      '2xl': '2.5em',
     },
     extend: {
       fontSize: {
