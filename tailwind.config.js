@@ -29,12 +29,12 @@ module.exports = {
       '5xl': '0.2em',
     },
     lineHeight: {
-      'none': '1em',
+      'none': '1',
       'sm': '1.25',
       'normal': '1.5',
       'lg': '1.75',
-      'xl': '2em',
-      '2xl': '2.5em',
+      'xl': '2',
+      '2xl': '2.5',
     },
     extend: {
       fontSize: {
