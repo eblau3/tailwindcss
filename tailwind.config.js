@@ -8,9 +8,9 @@ module.exports = {
       'sm': {'max': '640px'},
     },
     colors: {
-      'black': 'var(--color-black)',
-      'white': 'var(--color-white)',
-      'primary': 'var(--color-primary)',
+      'black': '#000000',
+      'white': '#ffffff',
+      'primary': '#99c3ff',
     },
     fontFamily: {
       'noto-sans': ['"Noto Sans JP", sans-serif'],
@@ -48,6 +48,7 @@ module.exports = {
         '3xl': 'var(--text-3xl)',
         '4xl': 'var(--text-4xl)',
         '5xl': 'var(--text-5xl)',
+        '6xl': 'var(--text-6xl)',
       },
       spacing: {
         'xs': 'var(--spacing-xs)',
